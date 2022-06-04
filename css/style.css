@@ -1,29 +1,35 @@
 div {
-    border-width: 5px;
-    border-style: solid;
-    padding: 5px;
-    box-sizing: border-box;
-    text-align: center;
+  border-width: 5px;
+  border-style: solid;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
 }
+
 .header {
-    border-color: #2ecc71;
+  border-color: #2ecc71;
 }
+
 .container {
-    border: none;
-    padding: 0;
+  border: none;
+  padding: 0;
 }
+
 .nav {
-    border-color: #e74c3c;
-    float: left;
-    width: 150px;
-    height: 200px;
+  border-color: #e74c3c;
+  float: left;
+  width: 150px;
+  height: 200px;
 }
+
 .content {
-    border-color: #f1c40f;
-    margin-left: 150px;
-    height: 200px;
-    padding-right: 160px;
+  border-color: #f1c40f;
+  margin-left: 150px;
+  height: 200px;
+  padding-right: 160px;
 }
+
 .footer {
-    border-color: #9b59b6;
+  border-color: #9b59b6;
 }
+/*# sourceMappingURL=style.css.map */
