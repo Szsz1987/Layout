@@ -1,34 +1,29 @@
-div {
-  border-width: 5px;
-  border-style: solid;
+header, aside, nav, main, footer {
+  border: 5px solid;
   padding: 5px;
   box-sizing: border-box;
   text-align: center;
 }
 
-.header {
-  border-color: #2ecc71;
-}
-
-.container {
+aside {
   border: none;
   padding: 0;
 }
 
-.nav {
+nav {
   border-color: #e74c3c;
   float: left;
   width: 150px;
-  height: 200px;
+  height: 300px;
 }
 
-.content {
+main {
   border-color: #f1c40f;
   margin-left: 150px;
-  height: 200px;
+  height: 300px;
   padding-right: 160px;
 }
 
-.footer {
+footer {
   border-color: #9b59b6;
 }
