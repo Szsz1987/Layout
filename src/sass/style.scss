@@ -5,6 +5,7 @@ header, aside, nav, main, footer {
   text-align: center;
 }
 
+// Aside 
 aside {
   border: none;
   padding: 0;
@@ -17,6 +18,21 @@ nav {
   height: 300px;
 }
 
+nav ul ul {
+  display: none;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+nav ul li {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+nav ul ul li {
+  position: absolute;
+}
+
 main {
   border-color: #f1c40f;
   margin-left: 150px;
@@ -24,6 +40,7 @@ main {
   padding-right: 160px;
 }
 
+// Footer
 footer {
   border-color: #9b59b6;
 
@@ -35,13 +52,17 @@ footer {
     display: inline;
   }
 
+  a {
+    text-decoration: none;
+  }
+
   span {
-    display: none;
+    color: white;
   }
 
   i {
     font-size: 20px;
-    margin: 5px;
+    margin: 2px;
   }
 
   .fa-facebook{
